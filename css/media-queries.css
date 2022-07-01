@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1080px) {
+    body{
+        padding: 0 10px;
+    }
+    
+    .item_wrap article{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    header nav ul li a{
+        display: none;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 420px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (max-width: 280px) {
+
+}
