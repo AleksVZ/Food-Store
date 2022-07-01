@@ -14,10 +14,7 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-            420:{
-                items:1
-            },
-             992:{
+            767:{
                 items:3
             },
 

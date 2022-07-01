@@ -1,12 +1,11 @@
 @media only screen and (max-width: 1080px) {
-    body{
-        padding: 0 10px;
-    }
-    
     .item_wrap article{
         margin-bottom: 30px;
     }
 
+}
+.container{
+    padding: 0 10px;
 }
 
 
@@ -16,28 +15,81 @@
     header nav ul li a{
         display: none;
     }
-
-
+    .owl-nav{
+        top: 125px; 
+    }
 
 }
+@media only screen and (max-width: 900px) {
+    .owl-nav{
+        top: 110px; 
+    }
 
+}
+@media only screen and (max-width: 800px) {
+    .owl-nav{
+        top: 290px; 
+    }
 
+}
 
 @media only screen and (max-width: 767px) {
+    .owl-nav{
+        top:228px; 
+    }
 
+}
+@media only screen and (max-width: 548px) {
+    .item_wrap{
+       justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 494px) {
+    .owl-nav{
+        top: 171px; 
+    }
+    header ul{
+        display: block;
+
+    }
+header ul li{
+    margin: 10px 0;
+}
+he
 }
 @media only screen and (max-width: 420px) {
+    .owl-nav{
+        top: 125px; 
+    }
 
+    .instagram h3{
+        font-size: 30px;
+        line-height: 36px;
+    }
 }
 @media only screen and (max-width: 375px) {
-
+    .owl-nav{
+        top: 110px; 
+    }
 }
 @media only screen and (max-width: 360px) {
-
+    .owl-nav{
+        top: 99px; 
+    }
 }
-@media only screen and (max-width: 320px) {
 
+@media only screen and (max-width: 320px) {
+    .owl-nav{
+        top: 78px; 
+    }
 }
 @media only screen and (max-width: 280px) {
-
+    .owl-nav{
+        top: 60px; 
+    }
+    .instagram h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
 }

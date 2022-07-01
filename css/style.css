@@ -289,13 +289,13 @@ a.btn:hover {
 .owl-carousel{
     padding: 0 45px;
 
-
 }
 .owl-carousel li{
     display: block;
     padding: 15px;
     margin: 15px;
-    width: 186px;
+ 
+    /* width: 186px; */
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 
@@ -362,5 +362,6 @@ a.btn:hover {
     top: 78px; 
     right: 1px;
 }
+
 /*? _______________________ carousel close */
 
