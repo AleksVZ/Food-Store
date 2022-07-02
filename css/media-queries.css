@@ -15,28 +15,20 @@
     header nav ul li a{
         display: none;
     }
-    .owl-nav{
-        top: 125px; 
-    }
+
 
 }
 @media only screen and (max-width: 900px) {
-    .owl-nav{
-        top: 110px; 
-    }
 
 }
 @media only screen and (max-width: 800px) {
-    .owl-nav{
-        top: 290px; 
-    }
+
 
 }
 
 @media only screen and (max-width: 767px) {
-    .owl-nav{
-        top:228px; 
-    }
+
+
 
 }
 @media only screen and (max-width: 548px) {
@@ -46,9 +38,7 @@
 
 }
 @media only screen and (max-width: 494px) {
-    .owl-nav{
-        top: 171px; 
-    }
+
     header ul{
         display: block;
 
@@ -59,9 +49,7 @@ header ul li{
 he
 }
 @media only screen and (max-width: 420px) {
-    .owl-nav{
-        top: 125px; 
-    }
+
 
     .instagram h3{
         font-size: 30px;
@@ -69,25 +57,16 @@ he
     }
 }
 @media only screen and (max-width: 375px) {
-    .owl-nav{
-        top: 110px; 
-    }
+
 }
 @media only screen and (max-width: 360px) {
-    .owl-nav{
-        top: 99px; 
-    }
-}
+
 
 @media only screen and (max-width: 320px) {
-    .owl-nav{
-        top: 78px; 
-    }
+
 }
 @media only screen and (max-width: 280px) {
-    .owl-nav{
-        top: 60px; 
-    }
+
     .instagram h3{
         font-size: 20px;
         line-height: 24px;

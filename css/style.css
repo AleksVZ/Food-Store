@@ -1,58 +1,4 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    /* font-family: 'Cormorant', serif;
-    font-family: 'Poppins', sans-serif; */
-}
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    display: inline-block;
-}
-h3{
-    font-family: 'Cormorant';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    color: #1F1F1F;
 
-}
-
-.container{
-    max-width: 1170px;
-    margin: auto;
-    position: relative;
-}
-
-/*?__________________ notification */
-
-.notification{
-background-color: #C2E8CE;
-
-}
-.notification .close{
-    position: absolute;
-    right: 0;
-    background-image: url('../img/Cross.svg');
-    width: 16px;
-    height: 16px;
-    background-size: contain;
-    cursor: pointer;
-    top: 17px;
-
-}
-.notification p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 50px;
-    text-align: center;
-    color: #1F1F1F;    
-}
 
 /*TODO ____________________________________ header */
 
@@ -140,10 +86,10 @@ header nav li:nth-child(3) a:after{
     margin-left: 7px;
     background-repeat: no-repeat;
     display: inline-block;
-
+}
     /*TODO __________________________________ main_banner */
 
-}
+
 .main_banner h1{
     font-family: 'Cormorant';
     font-style: normal;
@@ -162,20 +108,7 @@ header nav li:nth-child(3) a:after{
     color: #1F1F1F;
     margin-bottom: 40px;
 }
-.btn{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
-
-    background: #FF8126;
-    border-radius: 4px;
-    display: inline-block;
-    padding: 9px 36px;
-
-}
+       
 .main_banner{
     background-image: url('../img/bg.jpg');
     background-size: cover;
@@ -205,6 +138,8 @@ padding: 80px 0 0 0;
 .item_wrap article{
     width: 270px;
     padding-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
 
     
     text-align: center;
@@ -212,24 +147,7 @@ padding: 80px 0 0 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-.item_wrap article h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #1F1F1F;
-    margin-bottom: 11px;
-    margin-top: 20px;
-}
-.item_wrap article p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FF8126;
-    margin-bottom: 20px;
 
-}
 .item_wrap article p span{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -286,28 +204,24 @@ a.btn:hover {
 
 /*? _______________________ carousel */
 
-.owl-carousel{
-    padding: 0 45px;
 
-}
+
 .owl-carousel li{
-    display: block;
+    display: inline-block;
     padding: 15px;
-    margin: 15px;
- 
-    /* width: 186px; */
+
+    max-width: 186px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-
-
 }
+
 .owl-carousel li img{
     display: block;
     width: 100%;
 
 }
 
-.owl-nav .owl-prev:before {
+.owl-prev:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f104";
@@ -321,10 +235,13 @@ a.btn:hover {
     justify-content: center;
     width: 40px;
     height: 40px;
-   
+
+    position: absolute;
+    top: 70px;
+    
 
 }
-.owl-nav .owl-next:before{
+.owl-next:before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f105";
@@ -339,6 +256,10 @@ a.btn:hover {
 
     width: 40px;
     height: 40px;
+    position: absolute;
+    top: 70px;
+
+
 
 }
 .owl-nav .owl-prev:hover:before{
@@ -346,22 +267,31 @@ a.btn:hover {
     background: #FF8126;
     border: 1px solid #FF8126;
 
+
 }
 .owl-nav .owl-next:hover:before{
     color:#FFFFFF;
     background: #FF8126;
     border: 1px solid #FF8126;
-
 }
 
 .owl-nav{
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    width: 100%;
-    top: 78px; 
-    right: 1px;
+    width: 96%; 
+
 }
+.owl-item{
+    text-align: center;
+}
+/* .owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
 
 /*? _______________________ carousel close */
 
+
+         
