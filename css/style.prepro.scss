@@ -3,7 +3,18 @@
 @import "owl.theme.default.css";
 @import "media-queries.css";
 
+@import "mixins";
 @import "header";
+@import "main_banner";
+@import "Latest";
+@import "Why_Choose";
+@import "instagram";
+
+
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+
+
 
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {

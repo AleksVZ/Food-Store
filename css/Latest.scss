@@ -1,0 +1,61 @@
+.Latest_Offers {
+    padding: 80px 0 40px 0;
+    h3{
+        text-align: center;
+        margin-bottom: 40px;
+        span{
+        color: #FF8126;;
+    }
+    }
+
+    }
+
+    
+    .item_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+            article{
+                width: 270px;
+                padding-bottom: 30px;
+                border-radius: 20px;
+                overflow: hidden;
+            
+                
+                text-align: center;
+                background: #F7F5F0;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                h5{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    text-align: center;
+                    color: #1F1F1F;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #FF8126;
+                    margin-bottom: 14px;
+                    span{
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        text-decoration-line: line-through;
+                        color: #656565;
+                    
+                    }
+                }
+                .btn{
+                    @include button_style;
+                }
+
+            }       
+}

@@ -1,0 +1,23 @@
+@mixin button_style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color_wtite;
+
+    background: $color_orange;
+    padding: 6px 64px;
+
+    background-image: linear-gradient(to left,transparent,transparent 50%,#FFFFFF 50%,#FFFFFF);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    border: 1px solid #FF8126;
+    &:hover{
+        background-position: 0 0;
+        color:$color_orange;
+    
+    }
+}
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;

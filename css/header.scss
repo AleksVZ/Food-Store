@@ -28,30 +28,35 @@ header{
     }
 }
 
-
-
-
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header nav li a{
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    color: #1F1F1F;
-    display: inline-flex;
-    align-items: center;
-    transition: 0.3s;
+header {
+    nav{
+        li{
+            a{
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                color: #1F1F1F;
+                display: inline-flex;
+                align-items: center;
+                transition: 0.3s;
 
-    border: none;
-    width: auto;
-    height: auto;
+                border: none;
+                width: auto;
+                height: auto;
 
+            }
+        }
+    }
 }
+
+
 
 
 header nav li:first-of-type a:after{
