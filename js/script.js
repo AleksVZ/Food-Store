@@ -1,6 +1,6 @@
-$('.close').click(function () {
-    $('.notification').slideUp(500);
-})
+// $('.close').click(function () {
+//     $('.notification').slideUp(500);
+// })
 
 $(document).ready(function(){
 
@@ -23,5 +23,12 @@ $(document).ready(function(){
             }
         }
     });
+    $('.close').click(function () {
+        $('.notification').slideUp(500);
+    })
+
+
+
+    
 });
         

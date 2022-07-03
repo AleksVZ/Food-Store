@@ -236,9 +236,9 @@ a.btn:hover {
     width: 40px;
     height: 40px;
 
-    position: absolute;
-    top: 70px;
-    
+    position: relative;
+    top: -115px;
+    right: 45px;
 
 }
 .owl-next:before{
@@ -256,8 +256,11 @@ a.btn:hover {
 
     width: 40px;
     height: 40px;
-    position: absolute;
-    top: 70px;
+    position: relative;
+       
+    top: -115px;
+    left: 45px;
+
 
 
 
@@ -278,19 +281,17 @@ a.btn:hover {
 .owl-nav{
     display: flex;
     justify-content: space-between;
-    width: 96%; 
+    width: 100%; 
 
 }
 .owl-item{
     text-align: center;
 }
-/* .owl-stage{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
-
+.box{
+    width: 90%;
+    margin: auto;
+}
 /*? _______________________ carousel close */
 
 
