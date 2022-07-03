@@ -45,7 +45,7 @@ header .container {
 }
 
 header nav li a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -103,8 +103,7 @@ header nav li:nth-child(3) a:after {
   padding-bottom: 195px;
 }
 .main_banner h1 {
-  font-family: "Cormorant";
-  font-style: normal;
+  font-family: "Cormorant", serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
@@ -112,8 +111,7 @@ header nav li:nth-child(3) a:after {
   margin-bottom: 5px;
 }
 .main_banner h2 {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 26px;
   line-height: 39px;
@@ -127,7 +125,6 @@ header nav li:nth-child(3) a:after {
   line-height: 27px;
   color: #FFFFFF;
   background: #FF8126;
-  padding: 6px 64px;
   background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(50%, transparent), color-stop(50%, #FFFFFF), to(#FFFFFF));
   background-image: linear-gradient(to left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
   background-position: 100% 0;
@@ -135,6 +132,7 @@ header nav li:nth-child(3) a:after {
   -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   border: 1px solid #FF8126;
+  padding: 8px 36px;
 }
 .main_banner .btn:hover {
   background-position: 0 0;
@@ -207,7 +205,6 @@ header nav li:nth-child(3) a:after {
   line-height: 27px;
   color: #FFFFFF;
   background: #FF8126;
-  padding: 6px 64px;
   background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(50%, transparent), color-stop(50%, #FFFFFF), to(#FFFFFF));
   background-image: linear-gradient(to left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
   background-position: 100% 0;
@@ -215,6 +212,7 @@ header nav li:nth-child(3) a:after {
   -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   border: 1px solid #FF8126;
+  padding: 6px 64px;
 }
 .item_wrap article .btn:hover {
   background-position: 0 0;
@@ -391,6 +389,91 @@ header nav li:nth-child(3) a:after {
 .box {
   width: 90%;
   margin: auto;
+}
+
+.who_Makes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.who_Makes .left_Side h3 {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FF8126;
+  margin-bottom: 20px;
+}
+.who_Makes .left_Side h3 span {
+  color: #1F1F1F;
+}
+.who_Makes .left_Side p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+.who_Makes .left_Side ul {
+  margin-right: 15px;
+  margin-top: 40px;
+}
+.who_Makes .left_Side ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+.who_Makes .left_Side ul li:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 20px;
+  content: "\f058";
+  color: #FF8126;
+  margin-right: 15px;
+  width: 24px;
+  height: 24px;
+}
+.who_Makes .left_Side ul li p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+.who_Makes .left_Side .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  background: #FF8126;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(50%, transparent), color-stop(50%, #FFFFFF), to(#FFFFFF));
+  background-image: linear-gradient(to left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  border: 1px solid #FF8126;
+  padding: 6px 30px;
+}
+.who_Makes .left_Side .btn:hover {
+  background-position: 0 0;
+  color: #FF8126;
+}
+.who_Makes .right_Side {
+  max-width: 570px;
+  width: 100%;
+  margin-left: 15px;
 }
 
 * {

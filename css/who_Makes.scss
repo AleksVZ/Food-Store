@@ -1,0 +1,80 @@
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+
+.who_Makes{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+    .left_Side{
+
+        h3{
+            font-family: 'Cormorant', serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: $color_orange;
+            margin-bottom: 20px;
+            span{
+                color: #1F1F1F;
+                }
+            }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1F1F1F;
+            // margin-bottom: 40px;
+        }
+        ul{
+            margin-right: 15px;
+            margin-top: 40px;
+            li{
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 20px;
+                &:before{
+
+                    font-family: "Font Awesome 6 Free";
+                    font-weight: 900;
+                    font-size: 20px;
+                    content: "\f058";
+                    color: $color_orange;
+                    margin-right: 15px;
+
+                    width: 24px;
+                    height: 24px;
+                    
+                }
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #1F1F1F;
+
+
+                }
+
+            }
+        }
+        .btn{
+            // margin-top: 10px;
+            @include button_style;
+            padding: 6px 30px;
+        }
+
+
+
+
+    }
+    .right_Side{
+        max-width: 570px ;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+
+
+}
