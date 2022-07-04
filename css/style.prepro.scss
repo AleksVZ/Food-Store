@@ -4,12 +4,13 @@
 // @import "media-queries.css";
 
 @import "mixins";
-@import "header";
+// @import "header";
 @import "main_banner";
 @import "Latest";
 @import "Why_Choose";
 @import "instagram";
 @import "who_Makes";
+ @import "mobile_Menu"; //это header только с моб. меню
 
 
 $color_orange:#FF8126;
