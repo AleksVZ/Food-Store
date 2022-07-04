@@ -289,6 +289,12 @@ header nav li:nth-child(3) a:after {
     margin-top: 25px;
   }
 }
+@media screen and (max-width: 440px) {
+  .why_Choose .flex-why_Choose aside {
+    width: 100%;
+    padding: 15px;
+  }
+}
 .why_Choose .flex-why_Choose aside div {
   width: 48px;
   height: 48px;

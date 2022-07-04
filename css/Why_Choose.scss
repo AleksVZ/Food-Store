@@ -34,6 +34,10 @@ $color_Black:#1F1F1F;
             text-align: justify;
             margin-top: 25px;
         }
+        @include max-screen (440px){
+            width: 100%;
+            padding: 15px;
+        }
 
         div{
             width: 48px;
