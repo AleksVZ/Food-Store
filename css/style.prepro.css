@@ -386,7 +386,7 @@ header nav li:nth-child(3) a:after {
   text-align: center;
 }
 
-.box {
+.owl-carousel {
   width: 90%;
   margin: auto;
 }
