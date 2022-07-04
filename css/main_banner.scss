@@ -1,4 +1,6 @@
-
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
 
 .main_banner{
     background-image: url('../img/bg.jpg');
@@ -10,7 +12,7 @@
         font-weight: 700;
         font-size: 50px;
         line-height: 61px;
-        color: #1F1F1F;
+        color: $color_Black;
         margin-bottom: 5px;
     }
     h2{
@@ -18,7 +20,7 @@
     font-weight: 300;
     font-size: 26px;
     line-height: 39px;
-    color: #1F1F1F;
+    color: $color_Black;
     margin-bottom: 40px;
     
 }

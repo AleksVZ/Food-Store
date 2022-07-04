@@ -1,3 +1,5 @@
+
+
 @mixin button_style {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -11,7 +13,7 @@
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .25s ease-in;
-    border: 1px solid #FF8126;
+    border: 1px solid $color_orange;
     &:hover{
         background-position: 0 0;
         color:$color_orange;
@@ -20,3 +22,10 @@
 }
 $color_orange:#FF8126;
 $color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
+
+@mixin max-screen($res) {
+    @media screen and (max-width: $res) {
+      @content;
+    }
+  }

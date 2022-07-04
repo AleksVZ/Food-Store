@@ -1,7 +1,6 @@
 @import "normalize.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
-@import "media-queries.css";
 header {
   padding: 20px 0;
 }
@@ -10,8 +9,18 @@ header ul {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 494px) {
+  header ul {
+    display: block;
+  }
+}
 header ul li {
   margin-left: 10px;
+}
+@media screen and (max-width: 494px) {
+  header ul li {
+    margin: 10px 0;
+  }
 }
 header ul li a {
   border: 1px solid #BFBFBF;
@@ -61,6 +70,11 @@ header nav li a {
   border: none;
   width: auto;
   height: auto;
+}
+@media screen and (max-width: 1024px) {
+  header nav li a {
+    display: none;
+  }
 }
 
 header nav li:first-of-type a:after {
@@ -160,6 +174,13 @@ header nav li:nth-child(3) a:after {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 548px) {
+  .item_wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .item_wrap article {
   width: 270px;
   padding-bottom: 30px;
@@ -169,6 +190,11 @@ header nav li:nth-child(3) a:after {
   background: #F7F5F0;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 1080px) {
+  .item_wrap article {
+    margin-bottom: 30px;
+  }
 }
 .item_wrap article h5 {
   font-family: "Poppins", sans-serif;
@@ -245,9 +271,23 @@ header nav li:nth-child(3) a:after {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media screen and (max-width: 440px) {
+  .why_Choose .flex-why_Choose {
+    text-align: justify;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .why_Choose .flex-why_Choose aside {
   width: 210px;
   text-align: left;
+}
+@media screen and (max-width: 440px) {
+  .why_Choose .flex-why_Choose aside {
+    text-align: justify;
+    margin-top: 25px;
+  }
 }
 .why_Choose .flex-why_Choose aside div {
   width: 48px;
@@ -282,6 +322,18 @@ header nav li:nth-child(3) a:after {
   margin-bottom: 40px;
   text-align: center;
   color: #1F1F1F;
+}
+@media screen and (max-width: 420px) {
+  .instagram h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .instagram h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 .instagram a {
   -webkit-text-decoration-line: underline;
@@ -336,6 +388,16 @@ header nav li:nth-child(3) a:after {
   top: -115px;
   right: 45px;
 }
+@media screen and (max-width: 766px) {
+  .owl-nav .owl-prev:before {
+    right: 0;
+  }
+}
+@media screen and (max-width: 340px) {
+  .owl-nav .owl-prev:before {
+    top: 30px;
+  }
+}
 .owl-nav .owl-next:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -359,6 +421,16 @@ header nav li:nth-child(3) a:after {
   top: -115px;
   left: 45px;
 }
+@media screen and (max-width: 766px) {
+  .owl-nav .owl-next:before {
+    left: 0;
+  }
+}
+@media screen and (max-width: 340px) {
+  .owl-nav .owl-next:before {
+    top: 30px;
+  }
+}
 
 .owl-nav .owl-prev:hover:before {
   color: #FFFFFF;
@@ -381,6 +453,12 @@ header nav li:nth-child(3) a:after {
           justify-content: space-between;
   width: 100%;
 }
+@media screen and (max-width: 340px) {
+  .owl-nav {
+    width: 50%;
+    margin: auto;
+  }
+}
 
 .owl-item {
   text-align: center;
@@ -401,6 +479,14 @@ header nav li:nth-child(3) a:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 1080px) {
+  .who_Makes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .who_Makes .left_Side h3 {
   font-family: "Cormorant", serif;
@@ -470,10 +556,26 @@ header nav li:nth-child(3) a:after {
   background-position: 0 0;
   color: #FF8126;
 }
+@media screen and (max-width: 1080px) {
+  .who_Makes .left_Side .btn {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
 .who_Makes .right_Side {
   max-width: 570px;
   width: 100%;
   margin-left: 15px;
+}
+@media screen and (max-width: 1080px) {
+  .who_Makes .right_Side {
+    margin-top: 50px;
+    margin-left: none;
+  }
+}
+.who_Makes .right_Side img {
+  display: block;
+  width: 100%;
 }
 
 * {
@@ -507,6 +609,11 @@ h3 {
   max-width: 1170px;
   margin: auto;
   position: relative;
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    padding: 0 10px;
+  }
 }
 
 .notification {

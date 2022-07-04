@@ -1,10 +1,14 @@
 $color_orange:#FF8126;
 $color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
 
 .who_Makes{
     display: flex ;
     justify-content: space-between;
     align-items: center;
+    @include max-screen (1080px){
+        flex-direction: column;
+    }
 
     .left_Side{
 
@@ -16,7 +20,7 @@ $color_wtite:#FFFFFF;
             color: $color_orange;
             margin-bottom: 20px;
             span{
-                color: #1F1F1F;
+                color: $color_Black;
                 }
             }
         p{
@@ -24,7 +28,7 @@ $color_wtite:#FFFFFF;
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
-            color: #1F1F1F;
+            color: $color_Black;
             // margin-bottom: 40px;
         }
         ul{
@@ -35,7 +39,6 @@ $color_wtite:#FFFFFF;
                 align-items: flex-start;
                 margin-bottom: 20px;
                 &:before{
-
                     font-family: "Font Awesome 6 Free";
                     font-weight: 900;
                     font-size: 20px;
@@ -52,27 +55,34 @@ $color_wtite:#FFFFFF;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 24px;
-                    color: #1F1F1F;
-
-
+                    color: $color_Black;
                 }
 
             }
         }
         .btn{
-            // margin-top: 10px;
+
             @include button_style;
             padding: 6px 30px;
+            @include max-screen (1080px){
+                margin-top: 50px;
+                text-align: center;
+            }
         }
-
-
-
-
     }
     .right_Side{
         max-width: 570px ;
         width: 100%;
         margin-left: 15px;
+        @include max-screen (1080px){
+            margin-top: 50px;
+            margin-left:none;
+        }
+        img{
+            display: block;
+            width: 100%;
+        }
+
     }
 
 

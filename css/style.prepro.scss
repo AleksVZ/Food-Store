@@ -1,7 +1,7 @@
 @import "normalize.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
-@import "media-queries.css";
+// @import "media-queries.css";
 
 @import "mixins";
 @import "header";
@@ -14,6 +14,7 @@
 
 $color_orange:#FF8126;
 $color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
 
 
 
@@ -45,13 +46,16 @@ h3{
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    color: #1F1F1F;
+    color: $color_Black;
 }
 
 .container{
     max-width: 1170px;
     margin: auto;
     position: relative;
+    @include max-screen (1080px){
+        padding: 0 10px;
+    }
 }
 
 //TODO                   notification
@@ -75,7 +79,7 @@ h3{
         font-size: 14px;
         line-height: 50px;
         text-align: center;
-        color: #1F1F1F;    
+        color: $color_Black;    
     }
 
 }

@@ -1,9 +1,19 @@
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
+
 header{
     padding: 20px 0;
     ul{
         display: flex;
+        @include max-screen (494px){
+            display: block;
+        }
         li {
             margin-left: 10px;
+            @include max-screen (494px){
+                margin: 10px 0;
+            }
             a{
                 border: 1px solid #BFBFBF;
                 border-radius: 50%;
@@ -21,7 +31,7 @@ header{
         margin: 0 20px;
         &:hover{
             a{
-                color: #FF8126;
+                color: $color_orange;
 }
         }
     }
@@ -42,7 +52,7 @@ header {
                 font-weight: 500;
                 font-size: 15px;
                 line-height: 22px;
-                color: #1F1F1F;
+                color: $color_Black;
                 display: inline-flex;
                 align-items: center;
                 transition: 0.3s;
@@ -50,6 +60,9 @@ header {
                 border: none;
                 width: auto;
                 height: auto;
+                @include max-screen(1024px){
+                    display: none;
+                }
 
             }
         }

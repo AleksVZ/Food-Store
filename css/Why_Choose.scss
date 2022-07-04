@@ -1,3 +1,8 @@
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
+
+
 .why_Choose{
     padding-top: 40px ;
     margin-bottom: 80px;
@@ -7,7 +12,7 @@
         font-size: 40px;
         line-height: 48px;
         text-align: center;
-        color: #1F1F1F;
+        color: $color_Black;
         margin-bottom: 40px;
         span{
             color: $color_orange;
@@ -17,15 +22,24 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @include max-screen (440px){
+            text-align: justify;
+            justify-content: center;
+        }
 
         aside{
         width: 210px;
         text-align: left;
+        @include max-screen (440px){
+            text-align: justify;
+            margin-top: 25px;
+        }
 
         div{
             width: 48px;
             height: 48px;
             margin-bottom: 22px;
+
             img{
                 display: block;
                 width: 100%;
@@ -36,7 +50,7 @@
             font-weight: 700;
             font-size: 25px;
             line-height: 30px;
-            color: #1F1F1F;
+            color: $color_Black;
             margin-bottom: 10px;
             }
         p{
@@ -44,7 +58,7 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-            color: #1F1F1F;
+            color: $color_Black;
         }
 
 
