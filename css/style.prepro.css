@@ -7,19 +7,6 @@
   padding-top: 125px;
   padding-bottom: 195px;
 }
-.main_banner h1 {
-  font-family: "Cormorant", serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 61px;
-  color: #1F1F1F;
-  margin-bottom: 5px;
-}
-@media screen and (max-width: 359px) {
-  .main_banner h1 {
-    font-size: 30px;
-  }
-}
 .main_banner h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -52,6 +39,83 @@
 .main_banner .btn:hover {
   background-position: 0 0;
   color: #FF8126;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box ul {
+  margin-right: 10px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box li {
+  list-style: none;
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  color: #1F1F1F;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 5px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+@media screen and (max-width: 359px) {
+  .box li {
+    font-size: 30px;
+  }
+}
+
+.box ul:hover li {
+  -webkit-transform: rotate(45deg) translateY(-150px);
+          transform: rotate(45deg) translateY(-150px);
+  opacity: 0;
+}
+
+.box li:nth-child(1) {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.box li:nth-child(2) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.box li:nth-child(3) {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.box li:nth-child(4) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.box li:nth-child(5) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.box li:nth-child(6) {
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.box li:nth-child(7) {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .Latest_Offers {
