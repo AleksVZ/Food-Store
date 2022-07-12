@@ -87,6 +87,21 @@
   -webkit-transition: 2s;
   transition: 2s;
 }
+@media screen and (max-width: 705px) {
+  .box li {
+    font-size: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .box li {
+    font-size: 200px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .box li {
+    font-size: 150px;
+  }
+}
 
 .box ul:hover li {
   -webkit-transform: rotate(45deg) translateY(-150px);
@@ -311,7 +326,7 @@
     line-height: 36px;
   }
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 310px) {
   .instagram h3 {
     font-size: 20px;
     line-height: 24px;
@@ -338,25 +353,25 @@
 }
 
 .owl-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  top: 75px;
-  position: absolute;
-}
-@media screen and (max-width: 340px) {
-  .owl-nav {
-    width: 50%;
-    margin: auto;
-  }
+  position: relative;
 }
 .owl-nav .owl-prev {
-  right: 45px;
-  position: relative;
+  top: -115px;
+  left: -45px;
+  position: absolute;
+}
+@media screen and (max-width: 766px) {
+  .owl-nav .owl-prev {
+    left: 0;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 340px) {
+  .owl-nav .owl-prev {
+    top: 30px;
+    left: 50px;
+    position: absolute;
+  }
 }
 .owl-nav .owl-prev:before {
   font-family: "Font Awesome 6 Free";
@@ -378,19 +393,23 @@
   width: 40px;
   height: 40px;
 }
+.owl-nav .owl-next {
+  top: -115px;
+  right: -45px;
+  position: absolute;
+}
 @media screen and (max-width: 766px) {
-  .owl-nav .owl-prev:before {
+  .owl-nav .owl-next {
     right: 0;
+    position: absolute;
   }
 }
 @media screen and (max-width: 340px) {
-  .owl-nav .owl-prev:before {
+  .owl-nav .owl-next {
     top: 30px;
+    right: 50px;
+    position: absolute;
   }
-}
-.owl-nav .owl-next {
-  position: relative;
-  left: 45px;
 }
 .owl-nav .owl-next:before {
   font-family: "Font Awesome 6 Free";
@@ -411,11 +430,6 @@
           justify-content: center;
   width: 40px;
   height: 40px;
-}
-@media screen and (max-width: 766px) {
-  .owl-nav .owl-next:before {
-    left: 0;
-  }
 }
 @media screen and (max-width: 340px) {
   .owl-nav .owl-next:before {
@@ -546,6 +560,7 @@
   .who_Makes .right_Side {
     margin-top: 50px;
     margin-left: none;
+    margin-right: 15px;
   }
 }
 .who_Makes .right_Side img {

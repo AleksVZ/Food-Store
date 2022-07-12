@@ -13,10 +13,11 @@ $color_Black:#1F1F1F;
             font-size: 30px;
             line-height: 36px;
         }
-        @include max-screen (280px){
+        @include max-screen (310px){
             font-size: 20px;
             line-height: 24px;
         }
+      
 
         }
     a{
@@ -47,19 +48,31 @@ $color_Black:#1F1F1F;
 
 
 .owl-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    top: 75px;
-    position: absolute;
-    @include max-screen (340px){
-        width: 50%; 
-        margin: auto;
-    }
+    // display: flex;
+    // justify-content: space-between;
+    // width: 100%; 
+    position: relative;
+    
+    // @include max-screen (340px){
+    //     width: 50%; 
+    //     margin: auto;
+    // }
+
     .owl-prev{
-        right: 45px;
-        position: relative;
-        
+        top: -115px;
+        left: -45px;
+        position: absolute;
+                   
+        @include max-screen (766px){
+                left: 0;
+                position: absolute;
+            }
+        @include max-screen (340px){
+                top:30px;
+                left: 50px;
+                position: absolute;
+            }
+
         &:before {
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
@@ -75,17 +88,25 @@ $color_Black:#1F1F1F;
             width: 40px;
             height: 40px;
 
-            @include max-screen (766px){
-                right: 0;
-            }
-            @include max-screen (340px){
-                top:30px;
-            }
+
+
         }
     }
     .owl-next{
-        position: relative;
-         left: 45px;
+
+        top: -115px;
+        right: -45px;
+        position: absolute;
+        @include max-screen (766px){
+            right: 0;
+            position: absolute;
+        }
+        @include max-screen (340px){
+            top:30px;
+            right: 50px;
+            position: absolute;
+        }
+       
         &:before {
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
@@ -102,9 +123,6 @@ $color_Black:#1F1F1F;
             width: 40px;
             height: 40px;
 
-            @include max-screen (766px){
-                left: 0;
-            }
             @include max-screen (340px){
                 top:30px;
             }

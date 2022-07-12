@@ -62,6 +62,15 @@ $color_Black:#1F1F1F;
     line-height: 61px;
     margin-bottom: 5px;
     transition: 2s;
+    @include max-screen (705px){
+      font-size: 250px;
+  }
+  @include max-screen (550px){
+    font-size: 200px;
+}
+@include max-screen (350px){
+  font-size: 150px;
+}
  
   }
   
