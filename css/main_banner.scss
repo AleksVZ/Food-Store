@@ -7,18 +7,18 @@ $color_Black:#1F1F1F;
     background-size: cover;
     padding-top: 125px;
     padding-bottom: 195px;
-    // h1{
-    //     font-family: 'Cormorant', serif;
-    //     font-weight: 700;
-    //     font-size: 50px;
-    //     line-height: 61px;
-    //     color: $color_Black;
-    //     margin-bottom: 5px;
-    //     @include max-screen (605px){
-    //         font-size: 30px;
+    h1{
+        font-family: 'Cormorant', serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        color: $color_Black;
+        margin-bottom: 5px;
+        @include max-screen (605px){
+            font-size: 30px;
 
-    //     }
-    // }
+        }
+    }
     h2{
       font-family: 'Poppins', sans-serif;
       font-weight: 300;
@@ -57,7 +57,8 @@ $color_Black:#1F1F1F;
     font-family: 'Cormorant', serif;
     font-weight: 700;
     color: $color_Black;
-    font-size: 50px;
+    font-size: 350px;
+    color: #ff80261d;
     line-height: 61px;
     margin-bottom: 5px;
     transition: 2s;

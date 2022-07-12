@@ -7,6 +7,19 @@
   padding-top: 125px;
   padding-bottom: 195px;
 }
+.main_banner h1 {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #1F1F1F;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 605px) {
+  .main_banner h1 {
+    font-size: 30px;
+  }
+}
 .main_banner h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -67,7 +80,8 @@
   font-family: "Cormorant", serif;
   font-weight: 700;
   color: #1F1F1F;
-  font-size: 50px;
+  font-size: 350px;
+  color: rgba(255, 128, 38, 0.1137254902);
   line-height: 61px;
   margin-bottom: 5px;
   -webkit-transition: 2s;
@@ -309,17 +323,16 @@
   color: #FF8126;
 }
 
-/*? _______________________ carousel */
-.owl-carousel li {
+/*? ______________________ carousel */
+.owl-carousel a {
   display: inline-block;
   padding: 15px;
-  max-width: 186px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-.owl-carousel li img {
+.owl-carousel a img {
   display: block;
   width: 100%;
 }
@@ -332,6 +345,18 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  top: 75px;
+  position: absolute;
+}
+@media screen and (max-width: 340px) {
+  .owl-nav {
+    width: 50%;
+    margin: auto;
+  }
+}
+.owl-nav .owl-prev {
+  right: 45px;
+  position: relative;
 }
 .owl-nav .owl-prev:before {
   font-family: "Font Awesome 6 Free";
@@ -352,9 +377,6 @@
           justify-content: center;
   width: 40px;
   height: 40px;
-  position: relative;
-  top: -115px;
-  right: 45px;
 }
 @media screen and (max-width: 766px) {
   .owl-nav .owl-prev:before {
@@ -365,6 +387,10 @@
   .owl-nav .owl-prev:before {
     top: 30px;
   }
+}
+.owl-nav .owl-next {
+  position: relative;
+  left: 45px;
 }
 .owl-nav .owl-next:before {
   font-family: "Font Awesome 6 Free";
@@ -385,9 +411,6 @@
           justify-content: center;
   width: 40px;
   height: 40px;
-  position: relative;
-  top: -115px;
-  left: 45px;
 }
 @media screen and (max-width: 766px) {
   .owl-nav .owl-next:before {
@@ -410,22 +433,6 @@
   color: #FFFFFF;
   background: #FF8126;
   border: 1px solid #FF8126;
-}
-
-.owl-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-@media screen and (max-width: 340px) {
-  .owl-nav {
-    width: 50%;
-    margin: auto;
-  }
 }
 
 .owl-item {

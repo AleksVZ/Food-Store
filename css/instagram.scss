@@ -27,18 +27,18 @@ $color_Black:#1F1F1F;
 
 }
 
-/*? _______________________ carousel */
+/*? ______________________ carousel */
 
-.owl-carousel li{
+.owl-carousel a{
     display: inline-block;
     padding: 15px;
 
-    max-width: 186px;
+    // max-width: 186px;
     background: $color_wtite;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-.owl-carousel li img{
+.owl-carousel a img{
     display: block;
     width: 100%;
 
@@ -50,7 +50,16 @@ $color_Black:#1F1F1F;
     display: flex;
     justify-content: space-between;
     width: 100%; 
+    top: 75px;
+    position: absolute;
+    @include max-screen (340px){
+        width: 50%; 
+        margin: auto;
+    }
     .owl-prev{
+        right: 45px;
+        position: relative;
+        
         &:before {
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
@@ -66,21 +75,17 @@ $color_Black:#1F1F1F;
             width: 40px;
             height: 40px;
 
-            position: relative;
-            top: -115px;
-            right: 45px;
             @include max-screen (766px){
                 right: 0;
             }
             @include max-screen (340px){
                 top:30px;
             }
-
-        
-
         }
     }
     .owl-next{
+        position: relative;
+         left: 45px;
         &:before {
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
@@ -96,18 +101,13 @@ $color_Black:#1F1F1F;
 
             width: 40px;
             height: 40px;
-            position: relative;
-            
-            top: -115px;
-            left: 45px;
+
             @include max-screen (766px){
                 left: 0;
             }
             @include max-screen (340px){
                 top:30px;
             }
-
-
 
         }
     }
@@ -127,16 +127,7 @@ $color_Black:#1F1F1F;
     border: 1px solid #FF8126;
 }
 
-.owl-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    @include max-screen (340px){
-        width: 50%; 
-        margin: auto;
-    }
 
-}
 .owl-item{
     text-align: center;
 }
