@@ -39,72 +39,72 @@ $color_Black:#1F1F1F;
 }
 //!  box start__________________________________
 
- .box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
+//  .box {
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+//     flex-wrap: wrap;
 
- ul {
-    margin-right: 10px;
-    padding: 0;
-    display: flex;
-  }
-}
+//  ul {
+//     margin-right: 10px;
+//     padding: 0;
+//     display: flex;
+//   }
+// }
 
-  .box li {
-    list-style: none;
-    font-family: 'Cormorant', serif;
-    font-weight: 700;
-    color: $color_Black;
-    font-size: 350px;
-    color: #ff80261d;
-    line-height: 61px;
-    margin-bottom: 5px;
-    transition: 2s;
-    @include max-screen (705px){
-      font-size: 250px;
-  }
-  @include max-screen (550px){
-    font-size: 200px;
-}
-@include max-screen (350px){
-  font-size: 150px;
-}
+//   .box li {
+//     list-style: none;
+//     font-family: 'Cormorant', serif;
+//     font-weight: 700;
+//     color: $color_Black;
+//     font-size: 50px;
+//     color: #ff80261d;
+//     line-height: 61px;
+//     margin-bottom: 5px;
+//     transition: 2s;
+//     @include max-screen (705px){
+//       font-size: 250px;
+//   }
+//   @include max-screen (550px){
+//     font-size: 200px;
+// }
+// @include max-screen (350px){
+//   font-size: 150px;
+// }
  
-  }
+//   }
   
-  .box ul:hover li {
-    transform: rotate(45deg) translateY(-150px);
-    opacity: 0;
-    // filter: blur(20px);
-  }
+//   .box ul:hover li {
+//     transform: rotate(45deg) translateY(-150px);
+//     opacity: 0;
+//     // filter: blur(20px);
+//   }
   
-  .box li:nth-child(1) {
-    transition-delay: 0s;
-  }
+//   .box li:nth-child(1) {
+//     transition-delay: 0s;
+//   }
   
-  .box li:nth-child(2) {
-    transition-delay: 0.4s;
-  }
+//   .box li:nth-child(2) {
+//     transition-delay: 0.4s;
+//   }
   
-  .box li:nth-child(3) {
-    transition-delay: 0.8s;
-  }
+//   .box li:nth-child(3) {
+//     transition-delay: 0.8s;
+//   }
   
-  .box li:nth-child(4) {
-    transition-delay: 1.2s;
-  }
+//   .box li:nth-child(4) {
+//     transition-delay: 1.2s;
+//   }
   
-  .box li:nth-child(5) {
-    transition-delay: 1.6s;
-  } 
+//   .box li:nth-child(5) {
+//     transition-delay: 1.6s;
+//   } 
   
-  .box li:nth-child(6) {
-    transition-delay: 1.8s;
-  }
-  .box li:nth-child(7) {
-    transition-delay: 2s;
-  }
+//   .box li:nth-child(6) {
+//     transition-delay: 1.8s;
+//   }
+//   .box li:nth-child(7) {
+//     transition-delay: 2s;
+//   }
 
 // //! __________________________box end
