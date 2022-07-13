@@ -26,7 +26,12 @@ $color_Black:#1F1F1F;
         }
         ul{
             
-            li{                
+            li{   
+                &:hover{
+                    a{
+                        color: $color_orange;
+                      }
+                      }             
                 a{
                 font-family: 'Poppins', sans-serif;
                 font-weight: 400;
@@ -47,6 +52,11 @@ $color_Black:#1F1F1F;
                 line-height: 22px;
                 color: $color_Black;
                 margin-bottom: 15px;
+                &:hover{
+                        color: $color_orange;
+
+                      }
+                
                 @include max-screen (800px){
                     margin-top: 20px;;
                 }

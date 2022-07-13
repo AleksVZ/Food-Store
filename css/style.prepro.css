@@ -903,6 +903,9 @@ header nav li:nth-child(3) a:after {
   display: block;
   width: 100%;
 }
+.down_page ul li:hover a {
+  color: #FF8126;
+}
 .down_page ul li a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -918,6 +921,9 @@ header nav li:nth-child(3) a:after {
   line-height: 22px;
   color: #1F1F1F;
   margin-bottom: 15px;
+}
+.down_page .topic:hover {
+  color: #FF8126;
 }
 @media screen and (max-width: 800px) {
   .down_page .topic {

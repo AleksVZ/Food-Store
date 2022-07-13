@@ -32,7 +32,7 @@ $color_Black:#1F1F1F;
 .btn{
     @include button_style;
     padding: 8px 31px;
-    display: block;
+    display:block;
     max-width: 350px;
     margin: auto;
     text-align: center;
