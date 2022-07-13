@@ -19,6 +19,7 @@ $color_Black:#1F1F1F;
         .tell-flex{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
 
             li{
                 margin: 15px;

@@ -17,6 +17,7 @@
 .Tell .container .tell-flex {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Tell .container .tell-flex li {

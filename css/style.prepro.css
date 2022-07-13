@@ -864,6 +864,8 @@ header nav li:nth-child(3) a:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .Tell .container .tell-flex li {
   margin: 15px;
