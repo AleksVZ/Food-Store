@@ -1,0 +1,34 @@
+.down_page {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.down_page a {
+  width: 110px;
+  display: block;
+}
+
+.down_page a img {
+  display: block;
+  width: 100%;
+}
+
+.down_page ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3D3D3D;
+  width: 100%;
+}
+
+.down_page .topic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1F1F1F;
+  margin-bottom: 15px;
+}

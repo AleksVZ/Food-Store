@@ -871,6 +871,60 @@ header nav li:nth-child(3) a:after {
   margin: 15px;
 }
 
+.down_page {
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 800px) {
+  .down_page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+}
+.down_page a {
+  width: 110px;
+  display: block;
+}
+.down_page a img {
+  display: block;
+  width: 100%;
+}
+.down_page ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3D3D3D;
+  width: 100%;
+}
+.down_page .topic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1F1F1F;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 800px) {
+  .down_page .topic {
+    margin-top: 20px;
+  }
+}
+
 * {
   padding: 0px;
   margin: 0px;
