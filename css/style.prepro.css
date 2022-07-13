@@ -378,6 +378,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 78px;
 }
 @media screen and (max-width: 1080px) {
   .who_Makes {
@@ -702,6 +703,57 @@ header nav li:nth-child(3) a:after {
     height: 8px;
     margin-left: 10px;
   }
+}
+
+.Our_Charity {
+  background: #6090C3;
+  background-image: url("../img/Group_BG.png");
+  padding: 60px 0;
+}
+.Our_Charity .container a {
+  display: block;
+}
+.Our_Charity .container h3 {
+  font-family: "Cormorant";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.Our_Charity .container div {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.Our_Charity .container div img {
+  display: block;
+  width: 100%;
+}
+.Our_Charity .container .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  background: #FF8126;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(50%, transparent), color-stop(50%, #FFFFFF), to(#FFFFFF));
+  background-image: linear-gradient(to left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  border: 1px solid #FF8126;
+  padding: 8px 31px;
+  display: block;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.Our_Charity .container .btn:hover {
+  background-position: 0 0;
+  color: #FF8126;
 }
 
 * {

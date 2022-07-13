@@ -6,6 +6,7 @@ $color_Black:#1F1F1F;
     display: flex ;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 78px ;
     @include max-screen (1080px){
         flex-direction: column;
     }

@@ -1,0 +1,42 @@
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
+
+.Our_Charity{
+    background: #6090C3;
+    background-image: url('../img/Group_BG.png');
+    padding: 60px 0;  
+    .container{
+    a{
+        display: block;
+    }    
+    h3{
+        font-family: 'Cormorant';;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    div{
+        width: 100px;
+        margin: auto;
+        margin-bottom: 24px;
+
+    img{
+        display: block;
+        width: 100%;
+    }
+}
+.btn{
+    @include button_style;
+    padding: 8px 31px;
+    display: block;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    
+}
+    }
+}   
