@@ -843,6 +843,32 @@ header nav li:nth-child(3) a:after {
   }
 }
 
+.Tell {
+  background: rgba(255, 129, 38, 0.08);
+  background-image: url("../img/Figure.png");
+  padding: 60px 0;
+}
+.Tell .container h3 {
+  font-family: "Cormorant";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #1F1F1F;
+  margin-bottom: 40px;
+}
+.Tell .container .tell-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.Tell .container .tell-flex li {
+  margin: 15px;
+}
+
 * {
   padding: 0px;
   margin: 0px;

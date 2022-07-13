@@ -1,0 +1,29 @@
+$color_orange:#FF8126;
+$color_wtite:#FFFFFF;
+$color_Black:#1F1F1F;
+
+.Tell{
+    background: rgba(255, 129, 38, 0.08);
+    background-image: url('../img/Figure.png');
+    padding: 60px 0;  
+    .container{
+        h3{
+            font-family: 'Cormorant';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: $color_Black;
+            margin-bottom: 40px;
+        }
+        .tell-flex{
+            display: flex;
+            justify-content: center;
+
+            li{
+                margin: 15px;
+            }
+
+        }
+    }
+}
