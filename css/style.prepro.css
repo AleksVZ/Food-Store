@@ -793,9 +793,8 @@ header nav li:nth-child(3) a:after {
   width: 100%;
 }
 .surprise .right_surprise {
-  margin-left: 15px;
-  max-width: 570px;
   width: 100%;
+  margin-left: 15px;
 }
 .surprise .right_surprise h3 {
   font-family: "Cormorant", serif;
